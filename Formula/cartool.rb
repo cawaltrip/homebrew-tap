@@ -10,38 +10,26 @@ class Cartool < Formula
   end
 
   def self.file_path
-    "#{tag}.tar.gz"
+    "cartool-#{tag}.bigsur.bottle.tar.gz"
   end
-
+  
   def self.download_url
-    "#{homepage_url}/archive/#{file_path}"
+    "#{homepage_url}/releases/download/#{tag}/#{file_path}"
   end
 
   def self.sha256_checksum
-    "41452585225fb48b56abc26dcf91b86e537616b520e8da67d8f349947a0db11d"
+    "8c0e6883c8e256639d4252803b2601ac63b5ee461a8a703598a83f9dc20f10c3"
   end
 
   desc "CLI tool to extract Apple compiled asset catalogs (.car files).  Requires XCode (not just the command line tools) to be installed."
-  homepage "https://github.com/showxu/cartools"
+  homepage homepage_url
   url download_url
   sha256 sha256_checksum
   license "MIT"
 
-  depends_on xcode: "12.0"
-
   def install
-    system "xcodebuild
-            -resolvePackageDependencies"
-
-    system "xcodebuild
-            -project Cartools.xcodeproj
-            -scheme cartool
-            -configuration Release
-            -arch x86_64
-            -sdk macosx
-            -derivedDataPath .build"
-
-    bin.install ".build/Build/Products/Release/cartool"
+    
+    bin.install "cartool"
   end
 
   test do
