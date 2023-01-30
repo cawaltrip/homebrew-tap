@@ -13,7 +13,7 @@ brew install <FORMULA>
 
 | Repository | Formula | Description |
 | ---------- | ------- | ----------- |
-| [cartools](https://github.com/showxu/cartools) | [formula](Formula/cartool.rb) | CLI tool to extract Apple compiled asset catalogs (.car files).  Requires [`XCode`](https://apps.apple.com/us/app/xcode/id497799835) (not just the command line tools) to be installed. |
+| [cartools](https://github.com/showxu/cartools) | [formula](Formula/cartool.rb) | CLI tool to extract Apple compiled asset catalogs (.car files). |
 
 ## Documentation
 
