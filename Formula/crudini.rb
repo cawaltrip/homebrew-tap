@@ -3,7 +3,7 @@ class Crudini < Formula
   
   desc "A utility for manipulating ini files"
   homepage "https://github.com/pixelb/crudini"
-  url url "https://files.pythonhosted.org/packages/ec/40/9bd5195e07dd521d852c021a18b0388fe1672240d7f70aaa8800154462fe/crudini-0.9.4.tar.gz"
+  url "https://files.pythonhosted.org/packages/ec/40/9bd5195e07dd521d852c021a18b0388fe1672240d7f70aaa8800154462fe/crudini-0.9.4.tar.gz"
   sha256 "6fd0eb341b6cbd91e1883030ea9f2102c1c95619eb563af7ddabc2161e019f6b"
   license "GPL-2.0"
 
