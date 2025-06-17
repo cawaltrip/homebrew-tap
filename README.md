@@ -28,3 +28,11 @@ brew install <FORMULA>
 ## Documentation
 
 `brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh/)
+
+### Building new Python applications
+```bash
+$ mkdir new-package-dir
+$ pyenv virtualenv 3.12 new-package-homebrew-venv
+$ pip install <new-package> homebrew-pypi-poet
+$ poet -f <new-package>
+```
