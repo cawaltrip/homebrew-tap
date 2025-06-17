@@ -17,6 +17,13 @@ brew install <FORMULA>
 | [cmake](https://github.com/Kitware/CMake)  | [formula](Formula/cmake.rb) | CMake version 3.25.3 for testing. |
 | [crudini](https://github.com/pixelb/crudini)    | [formula](Formula/crudini.rb) | A utility for manipulating ini files. |
 | [chezmoi](https://github.com/cawaltrip/chezmoi) | [formula](Formula/chezmoi.rb) | Personal fork of [chezmoi](https://www.chezmoi.io/) to use when waiting for updates to chezmoi releases. | 
+| [onelogin-aws-cli](https://github.com/physera/onelogin-aws-cli) | [formula](Formula/onelogin-aws-cli.rb) | Assume an AWS Role and cache credentials using Onelogin. | 
+
+## Casks
+
+| Repository | Formula | Description |
+| ---------- | ------- | ----------- |
+| [font-fira-code-nerd-font](https://github.com/cawaltrip/nerd-fonts)  | [formula](Casks/font-fira-code-nerd-font.rb) | Developer targeted fonts with a high number of glyphs (incl. Battery Nerd). |
 
 ## Documentation
 
